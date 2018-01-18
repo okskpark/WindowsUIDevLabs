@@ -77,7 +77,7 @@ namespace CompositionSampleGallery
             }
         }
 
-        private void ThumbanilList_ContainerContentChanging(ListViewBase sender, ContainerContentChangingEventArgs args)
+        private void ThumbnailList_ContainerContentChanging(ListViewBase sender, ContainerContentChangingEventArgs args)
         {
             Thumbnail thumbnail = args.Item as Thumbnail;
             Image image = args.ItemContainer.ContentTemplateRoot.GetFirstDescendantOfType<Image>();

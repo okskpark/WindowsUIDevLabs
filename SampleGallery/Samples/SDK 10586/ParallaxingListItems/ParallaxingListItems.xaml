@@ -11,7 +11,7 @@
     Unloaded="Page_Unloaded"
     >
         <ListView x:Name="ThumbnailList" 
-                  ContainerContentChanging="ThumbanilList_ContainerContentChanging"
+                  ContainerContentChanging="ThumbnailList_ContainerContentChanging"
                   Grid.Row="2"
                   Grid.ColumnSpan="2"
                   MaxWidth="400"
